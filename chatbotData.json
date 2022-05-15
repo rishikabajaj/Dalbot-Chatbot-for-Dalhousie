@@ -1,0 +1,354 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank's a lot!","ty","tysm"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Courses",
+      "patterns": [
+        "What are the courses?",
+        "What are the subjects in MACS",
+        "Courses for masters"
+      ],  
+      "responses": [
+        "You can find the list of courses on the faculty of computer science website",
+        "We offer courses like Machine Learning, Visualization, Process of Data Science etc."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why do we tell actors to break a leg? Because every play has a cast."
+      ]
+    },
+    {
+      "tag": "Start Over",
+      "patterns": [
+        "Reset",
+        "start over"
+      ],
+      "responses": [
+        "okay, Hi, what can I help you with?",
+        "How can I help you"
+      ]
+    },
+    {
+      "tag": "Business",
+      "patterns": [
+        "What kind of business do you do?",
+        "Tell me about your business",
+        "What is your job?"
+      ],
+      "responses": [
+        "I am DalBot. I assist you with your queries regarding courses on Dalhousie University.",
+        "I am DalBot. Ask your queries?",
+        "I am DalBot. Here to help regarding your courses queries."
+      ]
+    },
+    {
+      "tag": "Robot",
+      "patterns": [
+        "Are you a robot?",
+        "Are you sure you are a robot?",
+        "Tell me if you are a robot"        
+      ],
+      "responses": [
+        "Yes I am a robot but I am a smart one!",
+        "Let me know what you want to know"
+      ]
+    },
+    {
+      "tag": "Weather",
+      "patterns": [
+        "How is the weather today?",
+        "is it sunny today?",
+        "is it cold outside?",
+        "Should i go out today?"        
+      ],
+      "responses": [
+        "The weather seems to be sunny today.",
+        "It's sunny. You should go outside."
+      ]
+    },
+    {
+      "tag": "Technology",
+      "patterns": [
+        "What technology do you use?",
+        "Can you tell me on which technologies you are trained?",
+        "Which aspects make you smart"    
+      ],
+      "responses": [
+        "I am trained on NLP.",
+        "I use techniques like NLP."
+      ]
+    },
+    {
+      "tag": "Residential Life",
+      "patterns": [
+        "How is the residential life in Dalhousie?",
+        "Can you let me know what kind of life of residents around?"        
+      ],
+      "responses": [
+        "Residence life is an incredibly diverse and unique experience.",
+        "The life of residence is awesome."
+      ]
+    },
+    {
+      "tag": "Admission Requirements",
+      "patterns": [
+        "What are the admission requirements in undergraduate courses?",
+        "how will i know if i will get admitted to the college?",
+        "What are the basic criteria to get into the Fall term?"        
+      ],
+      "responses": [
+        "You can access information reqgarding admission requirements on https://www.dal.ca/admissions/undergraduate/hs_applicants.html",
+        "Please take a look at the given site to know about the criteria : https://www.dal.ca/admissions/undergraduate/hs_applicants.html"
+      ]
+    },
+    {
+      "tag": "Application Deadlines",
+      "patterns": [
+        "Can you please let me know about the course deadlines?",
+        "What if i submit after the deadline?"     
+      ],
+      "responses": [
+        "The deadlines of a particular course can be accessed using https://www.dal.ca/admissions/application-deadlines.html",
+        "You can access the deadline of the course on the given link https://www.dal.ca/admissions/application-deadlines.html"
+      ]
+    },
+    {
+      "tag": "Course Application",
+      "patterns": [
+        "How can i apply to the course?",
+        "What is the process of applying to the course?",
+        "How can i fill the course application?",
+        "tell me the process of applying to the university?"        
+      ],
+      "responses": [
+        "Follow the steps given at https://www.dal.ca/admissions/apply.html to apply to the course",
+        "Take a look at our https://www.dal.ca/admissions/apply.html for course application."
+      ]
+    },
+    {
+      "tag": "Awards and Financial Aid",
+      "patterns": [
+        "Are there any awards or financial aid given by the university?",
+        "can the university help me in covering my expenses?",
+        "I can not cover my tuition. Will you be able to help?",
+        "Am i eligible for financial aid?"        
+      ],
+      "responses": [
+        "You can check for awards and financial aid at https://www.dal.ca/admissions/money_matters/awards-financial-aid.html",
+        "You can visit our website https://www.dal.ca/admissions/money_matters/awards-financial-aid.html for further assistance."
+      ]
+    },
+    {
+      "tag": "Academic Advice",
+      "patterns": [
+        "Can you offer me some academic advice about various things?",
+        "I think i can use your advice for my career counselling"        
+      ],
+      "responses": [
+        "We have a team which can help you will academic counselling. Go tohttps://www.dal.ca/campus_life/academic-support/advising.html ",
+        "Visit https://www.dal.ca/campus_life/academic-support/advising.html for carrer advice."
+      ]
+    },
+     {
+      "tag": "programs",
+      "patterns": [
+        "Courses?",
+        "What are the details of the programs",
+        "let me know which program can i apply?",
+        "Can you suggest some programs"
+      ],  
+      "responses": [
+        "You can find the programs on the faculty of computer science website",
+        "Please go through out official website to see what programs we have"
+      ]
+    },
+      {
+      "tag": "Timing",
+      "patterns": [
+        "When are you closed",
+        "When are you open",
+        "Store hours",
+        "open hours"
+      ],
+      "responses": [
+        "We're open Monday-Friday from 9-5 ADT.",
+        "We operate between 9 am to 5 pm, Mondays through Friday"
+      ]
+    },
+    {
+      "tag": "Payment",
+      "patterns": [
+        "How much is the fee?",
+        "How do i calculate the fee?",
+        "What is the fee deadline"
+      ],
+      "responses": [
+        "you can find the fee information on the university website",
+        "You can calculate the fee and find other information on the official website"
+      ]
+    },
+    {
+      "tag": "Escalate",
+      "patterns": [
+        "Talk to agent",
+        "Call me please",
+        "Call customer care",
+        "get in touch with an agent"
+      ],
+      "responses": [
+        "we have your information, someone will get in touch with you shortly",
+        "You can calculate the fee and find other information on the official website"
+      ]
+    },
+    {
+      "tag": "UnderGraduate",
+      "patterns": [
+        "What are the courses for under graduation",
+        "what is the fee for under graduate courses",
+        "where can i see the professors for under graduate course",
+        "what is the structure of course like?"
+      ],
+      "responses": [
+        "You can visit our website for more information",
+        "we offer courses that are best in class, for more information. visit us "
+      ]
+    },
+    {
+      "tag": "Part-time",
+      "patterns": [
+        "What are the part time opportunities on campus",
+        "Can i work part time while studying"
+      ],
+      "responses": [
+        "you can work part time on campus, the job postings are available on careers website",
+        "you get paid minimum wage for working part time on campus",
+        "you are free to work part-time on or off campus"
+      ]
+    },
+    {
+      "tag": "Campus",
+      "patterns": [
+        "where is the campus?",
+        "where are all you campuses?"
+      ],
+      "responses": [
+        "we have 3 campuses - studley, sexton, truro",
+        "the campus remains partially open during breaks",
+        "getting to a campus is based on the courses you want to attend"
+      ]
+    },
+    {
+      "tag": "Registration",
+      "patterns": [
+        "how do i start my application",
+        "what are the documents requirement?"
+      ],
+      "responses": [
+        "the deadline for application is different for different seasons",
+        "you can find the list of documents of the program page",
+        "you can start your application on dalonline by filling the application form"
+      ]
+    },
+    {
+      "tag": "Contact",
+      "patterns": [
+        "where can i get in touch with the administration offices?",
+        "Can you give me the contact number?"
+      ],
+      "responses": [
+        "you can get in touch with the office via email - account@dal.ca",
+        "you can fine the contact information on the website"
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": [
+        "how can i find an apartment?",
+        "can i live on campus?"
+      ],
+      "responses": [
+        "you can find an apartment after reaching halifax or start looking for places of marketplace or kijiji",
+        "you can apply to live on campus on the residence page"
+      ]
+    },
+    {
+      "tag": "Recreational Activities",
+      "patterns": [
+        "What are the sports available in the campus?"
+      ],
+      "responses": [
+        "The recreational activities include gym, table tennis, lawn tennis, swimming pool, ping pong and billiards.",
+        "You will find the list of recreational activies available on dalhousie's official site."
+      ]
+    },
+    {
+      "tag": "Exam Schedule",
+      "patterns": [
+        "When the examinations take place?",
+        "What is the general schedule of exams?"
+      ],
+      "responses": [
+        "Examinations take place generally at the end of each semester.",
+        "You will mind exam schedule under your course schedule on bright space."
+      ]
+    },
+    {
+      "tag": "Health Insurance",
+      "patterns": [
+        "What are the student health insurance plans?",
+        "How much does one have to pay for health insurance?"
+      ],
+      "responses": [
+        "The health insurance plans can be see on Dalhousie's official website"
+      ]
+    },
+    {
+      "tag": "Date",
+      "patterns": [
+        "Will you go on a date with me?"
+      ],
+      "responses": [
+        "I like you as a friend",
+        "I will try to take out time from my busy schedule. Thank you for the offer"
+      ]
+    }
+  ]
+}
